@@ -9,48 +9,288 @@
 </head>
 
 <body>
-  <aside class="aside__left">
-    <div class="container">
-      <img src="public/icons/Twitter-logo.svg" alt="Logo of Twitter">
-      <nav class="aside__left--navigation">
-        <ul class="aside__left--list">
-          <li class="aside__left--item">
-            <a href="index.html" class="item__link home">Home</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Explore</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Notifications</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Messages</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Bookmarks</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Lists</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">Profile</a>
-          </li>
-          <li class="aside__left--item">
-            <a href="404.html" class="item__link">More</a>
-          </li>
-        </ul>
-        <button class="aside__left--button" id="asideBtn">Tweet</button>
-      </nav>
-      <div class="aside__left--user">
-        <img src="public/icons/Profile-Picture.svg" alt="Image of your profile">
-        <div class="user__informations">
-          <h3 class="user__informations--name">Clayton Josué</h3>
-          <p class="user__informations--id">@Clayton_Josue1</p>
+  <main>
+
+    <aside class="aside__left">
+      <div class="container">
+        <img src="assets/icons/Twitter-logo.svg" alt="Logo of Twitter">
+        <nav class="aside__left--navigation">
+          <ul class="aside__left--list">
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Home-icon.svg" alt="Home icon">
+              </figure>
+              <a href="index.html" class="item__link home">Home</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Explore-icon.svg" alt="Explore icon">
+              </figure>
+              <a href="404.html" class="item__link">Explore</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Notifications-icon.svg" alt="Notifications icon">
+              </figure>
+              <a href="404.html" class="item__link">Notifications</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Message-icon.svg" alt="Messages icon">
+              </figure>
+              <a href="404.html" class="item__link">Messages</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Bookmarks-icon.svg" alt="Bookmarks icon">
+              </figure>
+              <a href="404.html" class="item__link">Bookmarks</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Lists-icon.svg" alt="Lists icon">
+              </figure>
+              <a href="404.html" class="item__link">Lists</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/Profile-icon.svg" alt="Profile icon">
+              </figure>
+              <a href="404.html" class="item__link">Profile</a>
+            </li>
+
+            <li class="aside__left--item">
+              <figure>
+                <img src="assets/icons/More-icon.svg" alt="More icon">
+              </figure>
+              <a href="404.html" class="item__link">More</a>
+            </li>
+
+          </ul>
+          <button class="aside__left--button" id="asideBtn">Tweet</button>
+        </nav>
+        <div class="aside__left--user">
+          <img src="public/assets/images/Profile-Picture.svg" alt="Image of your profile">
+          <div class="user__informations">
+            <h3 class="user__informations--name">Clayton Josué</h3>
+            <p class="user__informations--id">@Clayton_Josue1</p>
+          </div>
+          <a href="404.html">...</a>
         </div>
-        <a href="404.html">...</a>
       </div>
-    </div>
-  </aside>
+    </aside>
+
+    <section class="middle__informations">
+      <header class="middle__header">
+        <h1 class="middle__header--title">Home</h1>
+        <button class="toggle-button">
+          <img src="public/assets/icons/Dark-mode-icon.svg" alt="Toggle moddle">
+        </button>
+      </header>
+      <section class="middle__post">
+        <div class="middle__post--input">
+          <img src="public/assets/images/middle-profile.svg" alt="Big profile image">
+          <input type="text" class="tweet-input" placeholder="What's happening?">
+        </div>
+        <div class="middle__post--buttons">
+          <div class="middle__post--emojis">
+            <img src="public/assets/icons/Emoji-image-icon.svg">
+            <img src="public/assets/icons/Emoji-gif-icon.svg">
+            <img src="public/assets/icons/Emoji-graph-icon.svg">
+            <img src="public/assets/icons/Emoji-happy-icon.svg">
+            <img src="public/assets/icons/Emoji-date-icon.svg">
+          </div>
+          <button class="middle__post--button" id="tweetBtn">Tweet</button>
+        </div>
+        <div class="emptyPlace"></div>
+        <section class="tweet-post">
+          <figure>
+            <img src="public/assets/images/Devon-Profile.svg" alt="Image of Devon user">
+          </figure>
+
+          <div class="post">
+            <div class="post__user">
+              <h2 class="post__user--name">Devon Lane</h2>
+              <h3 class="post__user--nickname">@johndue</h3>
+              <p class="post__user--dot">·</p>
+              <h4 class="post__user--time">23s</h4>
+            </div>
+            <p class="post__content">Tom is in a big hurry.</p>
+
+            <div class="post__file">
+              <img src="public/assets/images/Astronaut-Image.png" alt="Image of an Astronaut">
+            </div>
+
+            <div class="post__icons">
+              <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
+              <span>61</span>
+
+              <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
+              <span>12</span>
+
+              <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
+              <span>6.2K</span>
+
+              <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
+              <span>61</span>
+            </div>
+            <a class="post-thread" href="404.html">Show this thread</a>
+          </div>
+        </section>
+        <section class="tweet-post">
+          <figure>
+            <img src="public/assets/images/Darlene-Profile.svg" alt="Image of Darlene user">
+          </figure>
+
+          <div class="post">
+            <div class="post__user">
+              <h2 class="post__user--name">Darlene Robertson</h2>
+              <h3 class="post__user--nickname">@johndue</h3>
+              <p class="post__user--dot">·</p>
+              <h4 class="post__user--time">23s</h4>
+            </div>
+            <p class="post__content">Tom is in a big hurry.</p>
+
+            <div class="post__file">
+              <img src="public/assets/images/Kitchen-Post.png" alt="Image of a Kitchen">
+            </div>
+
+            <div class="post__icons">
+              <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
+              <span>61</span>
+
+              <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
+              <span>12</span>
+
+              <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
+              <span>6.2K</span>
+
+              <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
+              <span>61</span>
+            </div>
+            <a class="post-thread" href="404.html">Show this thread</a>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <aside class="aside__right">
+
+      <div class="search">
+        <img src="public/assets/icons/Search-icon.svg" class="search-icon">
+        <input type="text" class="search-input" placeholder="Search Twitter">
+      </div>
+
+      <section class="happening__card">
+        <header class="happening__card--header">
+          <h2 class="happening__header--title">What's happening</h2>
+        </header>
+        <div class="happening__card--content">
+          <div class="happening__card--news">
+            <div class="news__content">
+              <h4 class="news__content--title">COVID 19 · Last night</h4>
+              <h3 class="news__content--informations">England’s Chief Medical Officer says the UK is at the most
+                dangerous time of the pandemic</h3>
+            </div>
+            <figure class="news__image">
+              <img src="public/assets/images/Covid-image.svg">
+            </figure>
+            <div class="news__content--tags">
+              <p>Trending with</p>
+              <a href="404.html">#covid19</a>
+            </div>
+          </div>
+
+          <div class="happening__card--news">
+            <div class="news__content">
+              <h4 class="news__content--title">US news · 4h ago</h4>
+              <h3 class="news__content--informations">Parler may go offline following suspensions by Amazon, Apple and
+                Google</h3>
+            </div>
+            <figure class="news__image">
+              <img src="public/assets/images/Phone-image.svg">
+            </figure>
+            <div class="news__content--tags">
+              <p>Trending with</p>
+              <a href="404.html">#trump</a>
+            </div>
+          </div>
+
+          <div class="happening__card--news">
+            <div class="news__content">
+              <h4 class="news__content--title">India · 1h ago</h4>
+              <h3 class="news__content--informations">India vs Australia: India hold on to earn a draw on Day 5 in
+                Sydney Test</h3>
+            </div>
+            <figure class="news__image">
+              <img src="public/assets/images/India-image.svg">
+            </figure>
+            <div class="news__content--tags">
+              <p>Trending with</p>
+              <a href="404.html">#sport</a>
+            </div>
+          </div>
+        </div>
+        <div class="happening__card--link">
+          <a href="404.html" class="happening__card--showmore">Show more</a>
+        </div>
+      </section>
+
+      <section class="follow__card">
+        <header class="happening__card--header">
+          <h2 class="happening__header--title">Who to follow</h2>
+        </header>
+        <div class="follow__card--user">
+          <figure class="user__image">
+            <img src="public/assets/images/Bessie-image.svg" alt="Image of the Bessie's profile">
+          </figure>
+          <div class="user__informations">
+            <h3 class="user__informations--name">Bessie Cooper</h3>
+            <p class="user__informaitons--nickname">@alessandroveronezi</p>
+          </div>
+          <a href="404.html" class="user__button">Follow</a>
+        </div>
+
+        <div class="follow__card--user">
+          <figure class="user__image">
+            <img src="public/assets/images/Jenny-image.svg" alt="Image of the Jenny's profile">
+          </figure>
+          <div class="user__informations">
+            <h3 class="user__informations--name">Jenny Wilson</h3>
+            <p class="user__informaitons--nickname">@gabrielcantarin</p>
+          </div>
+          <a href="404.html" class="user__button">Follow</a>
+        </div>
+
+        <div class="follow__card--link">
+          <a href="404.html" class="follow__card--showmore">Show more</a>
+        </div>
+      </section>
+
+      <footer class="aside__right--footer">
+        <p class="footer__informations">Terms of Service Privacy Policy Cookie Policy
+          Ads info More © 2021 Twitter, Inc.</p>
+      </footer>
+    </aside>
+
+    <footer class="twitter__footer">
+      <div class="footer__informations">
+        <h2 class="footer__informations--title">Don't miss what's happening</h2>
+        <p class="footer__informations--text">People on Twitter are the first to know</p>
+      </div>
+      <div class="footer__buttons">
+        <a href="404.html">Login</a>
+        <a href="404.html">Sign-up</a>
+      </div>
+    </footer>
+  </main>
   <script type="module" src="/src/main.ts"></script>
 </body>
 
