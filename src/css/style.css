@@ -1,7 +1,12 @@
+/* Imports */
+
+@import url("components/left-menu.css");
+
 :root {
-	--primary-button: #1DA1F2;
+	--primary-color: #1DA1F2;
 	--white: #FFFFFF;
 	--primary-font: 'Poppins', sans-serif;
+	--text-color: #0F1419;
 }
 
 body {
@@ -14,4 +19,5 @@ body {
 main {
 	display: grid;
 	grid: auto / 1fr 1.5fr 1fr;
+	margin-top: 20px;
 }
