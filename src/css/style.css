@@ -6,9 +6,11 @@
 /* Imports Middle */
 @import url("components/middle/middle-header.css");
 @import url("components/middle/middle-input.css");
+@import url("components/middle/tweet-btn.css");
 
 :root {
 	--primary-color: #1DA1F2;
+	--primary-color-opacity: #1DA1F250;
 	--white: #FFFFFF;
 	--primary-font: 'Poppins', sans-serif;
 	--text-color: #0F1419;
@@ -27,5 +29,4 @@ body {
 main {
 	display: grid;
 	grid: auto / 1fr 1.5fr 1fr;
-	margin-top: 10px;
 }

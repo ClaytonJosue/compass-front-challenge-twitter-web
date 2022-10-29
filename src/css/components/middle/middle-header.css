@@ -6,16 +6,18 @@
 
 .middle-fixed {
 	position: fixed;
+	background-color: var(--white);
 }
 
 .middle__header {
 	display: flex;
 	height: 45px;
-	width: 40vw;
+	width: 41.4vw;
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid var(--dark-7);
 	padding: 5px;
+	background-color: var(--white);
 }
 
 .middle__header--title {
