@@ -5,6 +5,7 @@
 
 /* Imports Middle */
 @import url("components/middle/middle-header.css");
+@import url("components/middle/middle-input.css");
 
 :root {
 	--primary-color: #1DA1F2;
@@ -13,6 +14,7 @@
 	--text-color: #0F1419;
 	--dark-5: #5B7083;
 	--dark-7: #EBEEF0;
+	--dark-8: #F7F9FA;
 }
 
 body {
