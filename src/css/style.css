@@ -1,7 +1,7 @@
-/* Imports */
-@import url("components/left-menu.css");
-@import url("components/left-button.css");
-@import url("components/left-user.css");
+/* Imports Aside left*/
+@import url("components/aside-left/left-menu.css");
+@import url("components/aside-left/left-button.css");
+@import url("components/aside-left/left-user.css");
 
 :root {
 	--primary-color: #1DA1F2;

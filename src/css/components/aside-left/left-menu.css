@@ -1,5 +1,5 @@
 /* Import */
-@import url('../style.css');
+@import url("../../style.css");
 
 .right-border {
 	border-right: 1px solid var(--dark-7);
