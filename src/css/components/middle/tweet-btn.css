@@ -10,8 +10,10 @@
 	font-weight: 700;
 	font-size: 15px;
 	margin-right: 15px;
+	cursor: pointer;
 }
 
 .middle__post--button:disabled {
 	background-color: var(--primary-color-opacity);
+	cursor: unset;
 }
