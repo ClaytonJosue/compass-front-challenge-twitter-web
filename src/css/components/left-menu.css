@@ -1,13 +1,21 @@
 /* Import */
 @import url('../style.css');
 
+.right-border {
+	border-right: 1px solid var(--dark-7);
+	height: 100%;
+	position: fixed;
+	left: 28%;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	margin-left: 50px;
 	margin-top: 6px;
-	gap: 15px;
+	gap: 10px;
+	position: fixed;
 }
 
 .aside__left--item {

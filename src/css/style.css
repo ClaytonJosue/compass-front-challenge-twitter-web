@@ -1,12 +1,15 @@
 /* Imports */
 @import url("components/left-menu.css");
 @import url("components/left-button.css");
+@import url("components/left-user.css");
 
 :root {
 	--primary-color: #1DA1F2;
 	--white: #FFFFFF;
 	--primary-font: 'Poppins', sans-serif;
 	--text-color: #0F1419;
+	--dark-5: #5B7083;
+	--dark-7: #EBEEF0;
 }
 
 body {

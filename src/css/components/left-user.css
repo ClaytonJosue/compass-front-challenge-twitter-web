@@ -1,0 +1,27 @@
+@import url("../style.css");
+
+.aside__left--user {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.aside__left--image {
+	border-radius: 50%;
+}
+
+.user__informations {
+	margin: 0 40px 0 15px;
+}
+
+.user__informations--name {
+	font-weight: 700;
+	color: var(--text-color);
+}
+
+.user__informations--id {
+	color: var(--dark-5);
+	font-weight: 500;
+	font-size: 15px;
+	margin-top: 3px;
+}
