@@ -1,6 +1,6 @@
 /* Imports */
-
 @import url("components/left-menu.css");
+@import url("components/left-button.css");
 
 :root {
 	--primary-color: #1DA1F2;
@@ -19,5 +19,5 @@ body {
 main {
 	display: grid;
 	grid: auto / 1fr 1.5fr 1fr;
-	margin-top: 20px;
+	margin-top: 10px;
 }
