@@ -93,97 +93,102 @@
     </aside>
 
     <section class="middle__informations">
-      <header class="middle__header">
-        <h1 class="middle__header--title">Home</h1>
-        <button class="toggle-button">
-          <img src="public/assets/icons/Dark-mode-icon.svg" alt="Toggle moddle">
-        </button>
-      </header>
-      <section class="middle__post">
-        <div class="middle__post--input">
-          <img src="public/assets/images/middle-profile.svg" alt="Big profile image">
-          <input type="text" class="tweet-input" placeholder="What's happening?">
+      <div class="middle-container">
+        <div class="middle-fixed">
+          <header class="middle__header">
+            <h1 class="middle__header--title">Home</h1>
+            <button class="toggle-button">
+              <img src="public/assets/icons/Dark-mode-icon.svg" alt="Toggle mode">
+            </button>
+          </header>
+
+          <section class="middle__post">
+            <div class="middle__post--input">
+              <img src="public/assets/images/middle-profile.svg" alt="Big profile image">
+              <input type="text" class="tweet-input" placeholder="What's happening?">
+            </div>
+            <div class="middle__post--buttons">
+              <div class="middle__post--emojis">
+                <img src="public/assets/icons/Emoji-image-icon.svg">
+                <img src="public/assets/icons/Emoji-gif-icon.svg">
+                <img src="public/assets/icons/Emoji-graph-icon.svg">
+                <img src="public/assets/icons/Emoji-happy-icon.svg">
+                <img src="public/assets/icons/Emoji-date-icon.svg">
+              </div>
+              <button class="middle__post--button" id="tweetBtn">Tweet</button>
+            </div>
         </div>
-        <div class="middle__post--buttons">
-          <div class="middle__post--emojis">
-            <img src="public/assets/icons/Emoji-image-icon.svg">
-            <img src="public/assets/icons/Emoji-gif-icon.svg">
-            <img src="public/assets/icons/Emoji-graph-icon.svg">
-            <img src="public/assets/icons/Emoji-happy-icon.svg">
-            <img src="public/assets/icons/Emoji-date-icon.svg">
+      </div>
+      <div class="emptyPlace"></div>
+      <section class="tweet-post">
+        <figure>
+          <img src="public/assets/images/Devon-Profile.svg" alt="Image of Devon user">
+        </figure>
+
+        <div class="post">
+          <div class="post__user">
+            <h2 class="post__user--name">Devon Lane</h2>
+            <h3 class="post__user--nickname">@johndue</h3>
+            <p class="post__user--dot">·</p>
+            <h4 class="post__user--time">23s</h4>
           </div>
-          <button class="middle__post--button" id="tweetBtn">Tweet</button>
+          <p class="post__content">Tom is in a big hurry.</p>
+
+          <div class="post__file">
+            <img src="public/assets/images/Astronaut-Image.png" alt="Image of an Astronaut">
+          </div>
+
+          <div class="post__icons">
+            <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
+            <span>61</span>
+
+            <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
+            <span>12</span>
+
+            <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
+            <span>6.2K</span>
+
+            <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
+            <span>61</span>
+          </div>
+          <a class="post-thread" href="404.html">Show this thread</a>
         </div>
-        <div class="emptyPlace"></div>
-        <section class="tweet-post">
-          <figure>
-            <img src="public/assets/images/Devon-Profile.svg" alt="Image of Devon user">
-          </figure>
-
-          <div class="post">
-            <div class="post__user">
-              <h2 class="post__user--name">Devon Lane</h2>
-              <h3 class="post__user--nickname">@johndue</h3>
-              <p class="post__user--dot">·</p>
-              <h4 class="post__user--time">23s</h4>
-            </div>
-            <p class="post__content">Tom is in a big hurry.</p>
-
-            <div class="post__file">
-              <img src="public/assets/images/Astronaut-Image.png" alt="Image of an Astronaut">
-            </div>
-
-            <div class="post__icons">
-              <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
-              <span>61</span>
-
-              <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
-              <span>12</span>
-
-              <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
-              <span>6.2K</span>
-
-              <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
-              <span>61</span>
-            </div>
-            <a class="post-thread" href="404.html">Show this thread</a>
-          </div>
-        </section>
-        <section class="tweet-post">
-          <figure>
-            <img src="public/assets/images/Darlene-Profile.svg" alt="Image of Darlene user">
-          </figure>
-
-          <div class="post">
-            <div class="post__user">
-              <h2 class="post__user--name">Darlene Robertson</h2>
-              <h3 class="post__user--nickname">@johndue</h3>
-              <p class="post__user--dot">·</p>
-              <h4 class="post__user--time">23s</h4>
-            </div>
-            <p class="post__content">Tom is in a big hurry.</p>
-
-            <div class="post__file">
-              <img src="public/assets/images/Kitchen-Post.png" alt="Image of a Kitchen">
-            </div>
-
-            <div class="post__icons">
-              <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
-              <span>61</span>
-
-              <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
-              <span>12</span>
-
-              <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
-              <span>6.2K</span>
-
-              <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
-              <span>61</span>
-            </div>
-            <a class="post-thread" href="404.html">Show this thread</a>
-          </div>
-        </section>
       </section>
+      <section class="tweet-post">
+        <figure>
+          <img src="public/assets/images/Darlene-Profile.svg" alt="Image of Darlene user">
+        </figure>
+
+        <div class="post">
+          <div class="post__user">
+            <h2 class="post__user--name">Darlene Robertson</h2>
+            <h3 class="post__user--nickname">@johndue</h3>
+            <p class="post__user--dot">·</p>
+            <h4 class="post__user--time">23s</h4>
+          </div>
+          <p class="post__content">Tom is in a big hurry.</p>
+
+          <div class="post__file">
+            <img src="public/assets/images/Kitchen-Post.png" alt="Image of a Kitchen">
+          </div>
+
+          <div class="post__icons">
+            <img src="public/assets/icons/Comments-icon.svg" alt="Comments icon">
+            <span>61</span>
+
+            <img src="public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
+            <span>12</span>
+
+            <img src="public/assets/icons/Like-icon.svg" alt="Like icon">
+            <span>6.2K</span>
+
+            <img src="public/assets/icons/Share-icon.svg" alt="Share icon">
+            <span>61</span>
+          </div>
+          <a class="post-thread" href="404.html">Show this thread</a>
+        </div>
+      </section>
+    </section>
     </section>
 
     <aside class="aside__right">

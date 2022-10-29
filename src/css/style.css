@@ -3,6 +3,9 @@
 @import url("components/aside-left/left-button.css");
 @import url("components/aside-left/left-user.css");
 
+/* Imports Middle */
+@import url("components/middle/middle-header.css");
+
 :root {
 	--primary-color: #1DA1F2;
 	--white: #FFFFFF;
