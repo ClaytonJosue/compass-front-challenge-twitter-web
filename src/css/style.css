@@ -7,6 +7,7 @@
 @import url("components/middle/middle-header.css");
 @import url("components/middle/middle-input.css");
 @import url("components/middle/tweet-btn.css");
+@import url("components/middle/twitter-post.css");
 
 :root {
 	--primary-color: #1DA1F2;
