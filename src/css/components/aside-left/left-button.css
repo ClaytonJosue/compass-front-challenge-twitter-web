@@ -1,0 +1,13 @@
+@import url("../../style.css");
+
+.aside__left--button {
+	padding: 1rem;
+	width: 230px;
+	border-radius: 25px;
+	border: none;
+	background-color: var(--primary-color);
+	color: var(--white);
+	font-weight: 700;
+	font-size: 15px;
+	cursor: pointer;
+}

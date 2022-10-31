@@ -1,0 +1,32 @@
+@import url("../../style.css");
+
+.middle-container {
+	height: 25vh;
+}
+
+.middle-fixed {
+	position: fixed;
+	background-color: var(--white);
+}
+
+.middle__header {
+	display: flex;
+	height: 45px;
+	width: 41.4vw;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--dark-7);
+	padding: 5px;
+	background-color: var(--white);
+}
+
+.middle__header--title {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.toggle-button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}

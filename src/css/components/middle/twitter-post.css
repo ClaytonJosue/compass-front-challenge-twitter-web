@@ -1,0 +1,79 @@
+@import url("../../style.css");
+
+.tweet-post {
+	display: grid;
+	grid: auto / 60px 1fr;
+	padding-bottom: 1rem;
+	margin-bottom: 15px;
+	border-bottom: 1px solid var(--dark-7);
+}
+
+.tweet__user {
+	border-radius: 50%;
+}
+
+.post__user {
+	display: flex;
+}
+
+.post__user--name {
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--text-color);
+}
+
+.post__user--nickname {
+	color: var(--dark-5);
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0 5px;
+}
+
+.post__user--dot {
+	margin-right: 5px;
+	color: var(--dark-5);
+	font-size: 15px;
+}
+
+.post__user--time {
+	color: var(--dark-5);
+	font-size: 15px;
+}
+
+.post__content {
+	margin: 10px 0;
+	font-size: 15px;
+	color: var(--text-color);
+	font-weight: 500;
+}
+
+.user__image {
+	border-radius: 25px;
+	margin-right: 15px;
+}
+
+.post__icons {
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.post__icons--content {
+	display: flex;
+	align-items: center;
+}
+
+.post__icons--number {
+	margin: 0 10px;
+	font-size: 13px;
+	font-weight: 500;
+	color: var(--dark-5);
+}
+
+.post-thread {
+	text-decoration: none;
+	color: var(--primary-color);
+	font-size: 13px;
+	font-weight: 500;
+}

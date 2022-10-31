@@ -1,0 +1,62 @@
+@import url("../../style.css");
+
+.right-border__middle {
+	border-right: 1px solid var(--dark-7);
+	height: 100%;
+	position: fixed;
+	right: 28.6%;
+	z-index: -1;
+}
+
+.middle__post--input {
+	display: flex;
+	margin-top: 15px;
+	background-color: var(--white);
+}
+
+.middle__image--profile {
+	border-radius: 50%;
+	max-height: 48px;
+}
+
+.tweet-input {
+	border: none;
+	outline: none;
+	margin-left: 15px;
+	width: 100%;
+	color: var(--dark-5);
+	font-family: var(--primary-font);
+	font-weight: 500;
+	resize: none;
+}
+
+.tweet-input::placeholder {
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--dark-5);
+	display: flex;
+}
+
+.tweet-input:focus {
+	height: 60px;
+}
+
+.middle__post--buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 70px;
+}
+
+.emoji__icon {
+	margin-right: 14px;
+	cursor: pointer;
+}
+
+.emptyPlace {
+	height: 10px;
+	background: var(--dark-8);
+	border-top: 1px solid var(--dark-7);
+	border-bottom: 1px solid var(--dark-7);
+	margin: 15px 0;
+}

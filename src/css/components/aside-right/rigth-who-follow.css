@@ -1,0 +1,45 @@
+@import url("../../style.css");
+
+.follow__card {
+	margin-top: 10px;
+}
+
+.follow__card--user {
+	display: flex;
+	border-bottom: 1px solid var(--dark-7);
+	padding: 10px 5px;
+}
+
+
+.user__informations--name {
+	color: var(--text-color);
+	font-size: 15px;
+}
+
+.user__informations--nickname {
+	color: var(--dark-5);
+	font-size: 15px;
+}
+
+.user__button--two {
+	margin-left: 80px;
+}
+
+.user__button--one {
+	margin-left: 50px;
+}
+
+.user__button--one,
+.user__button--two {
+	border: 1px solid var(--primary-color);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 5px;
+	text-decoration: none;
+	color: var(--primary-color);
+	padding: 15px;
+	font-weight: 700;
+}

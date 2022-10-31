@@ -1,0 +1,38 @@
+/* Import */
+@import url("../../style.css");
+
+.right-border {
+	border-right: 1px solid var(--dark-7);
+	height: 100%;
+	position: fixed;
+	left: 28%;
+	z-index: -1;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 50px;
+	margin-top: 20px;
+	gap: 10px;
+	position: fixed;
+}
+
+.aside__left--item {
+	display: flex;
+	align-items: center;
+	margin: 10px 0 25px;
+}
+
+.item__link {
+	margin-left: 30px;
+	text-decoration: none;
+	color: var(--text-color);
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.home {
+	color: var(--primary-color);
+}

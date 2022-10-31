@@ -1,0 +1,19 @@
+@import url("../../style.css");
+
+.middle__post--button {
+	border: none;
+	background-color: var(--primary-color);
+	color: var(--white);
+	padding: .5rem 1rem;
+	border-radius: 25px;
+	font-family: var(--primary-font);
+	font-weight: 700;
+	font-size: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.middle__post--button:disabled {
+	background-color: var(--primary-color-opacity);
+	cursor: unset;
+}

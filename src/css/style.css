@@ -1,0 +1,42 @@
+/* Imports Aside left*/
+@import url("components/aside-left/left-menu.css");
+@import url("components/aside-left/left-button.css");
+@import url("components/aside-left/left-user.css");
+
+/* Imports Middle */
+@import url("components/middle/middle-header.css");
+@import url("components/middle/middle-input.css");
+@import url("components/middle/tweet-btn.css");
+@import url("components/middle/twitter-post.css");
+
+/* Imports Aside right */
+@import url("components/aside-right/right-news.css");
+@import url("components/aside-right/right-search.css");
+@import url("components/aside-right/rigth-who-follow.css");
+@import url("components/aside-right/right-footer.css");
+
+/* Imports footer */
+@import url("components/footer/footer.css");
+
+:root {
+	--primary-color: #1DA1F2;
+	--primary-color-opacity: #1DA1F250;
+	--white: #FFFFFF;
+	--primary-font: 'Poppins', sans-serif;
+	--text-color: #0F1419;
+	--dark-5: #5B7083;
+	--dark-7: #EBEEF0;
+	--dark-8: #F7F9FA;
+}
+
+body {
+	background-color: var(--white);
+	font-family: var(--primary-font);
+	font-weight: 500;
+	font-size: 16px;
+}
+
+main {
+	display: grid;
+	grid: auto / 1fr 1.5fr 1fr;
+}
