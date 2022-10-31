@@ -13,6 +13,7 @@
 @import url("components/aside-right/right-news.css");
 @import url("components/aside-right/right-search.css");
 @import url("components/aside-right/rigth-who-follow.css");
+@import url("components/aside-right/right-footer.css");
 
 :root {
 	--primary-color: #1DA1F2;

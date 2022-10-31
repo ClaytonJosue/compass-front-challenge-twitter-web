@@ -1,0 +1,11 @@
+@import url("../../style.css");
+
+.aside__right--footer {
+	width: 25vw;
+	margin-top: 20px;
+}
+
+.footer__informations {
+	color: var(--dark-5);
+	font-size: 16px;
+}
