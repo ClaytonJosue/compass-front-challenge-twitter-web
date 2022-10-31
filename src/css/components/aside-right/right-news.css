@@ -58,6 +58,7 @@
 	display: flex;
 	gap: 5px;
 	margin-bottom: 8px;
+	align-items: center;
 }
 
 .news__content--tags--title {

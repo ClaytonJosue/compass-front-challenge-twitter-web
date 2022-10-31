@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/html';
 import '../../css/style.css'
 
 export default {
-	title: 'Post/Tweet Post'
+	title: 'Cards/Tweet Post'
 } as Meta
 
 export const PostOne: Story = () => {

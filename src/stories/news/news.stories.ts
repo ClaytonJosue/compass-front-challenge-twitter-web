@@ -2,12 +2,12 @@ import { Story, Meta } from '@storybook/html';
 import '../../css/style.css'
 
 export default {
-	title: 'Post/Tweet News'
+	title: 'Cards/Tweet News'
 } as Meta
 
 export const News: Story = () => {
 	return `
-				<section class="happening__card">
+				<section class="happening__card" style="width: 40%">
           <header class="happening__card--header">
             <h2 class="happening__header--title">What's happening</h2>
           </header>
