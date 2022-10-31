@@ -1,7 +1,7 @@
 @import url("../../style.css");
 
 .aside__right {
-	padding: 1rem;
+	padding: .5rem;
 }
 
 .aside__right--fixed {
@@ -11,10 +11,11 @@
 .happening__card {
 	background-color: var(--dark-8);
 	border-radius: 16px;
+	width: 25vw;
 }
 
 .happening__card--header {
-	padding: 15px;
+	padding: 15px 10px;
 	border-bottom: 1px solid var(--dark-7);
 }
 
@@ -22,4 +23,62 @@
 	font-size: 20px;
 	color: var(--black);
 	font-weight: 700;
+}
+
+.happening__card--content {
+	padding: 0 10px;
+}
+
+.happening__card--news {
+	display: grid;
+	grid: auto / 1fr .3fr;
+	border-bottom: 1px solid var(--dark-7);
+}
+
+.news__content--title {
+	color: var(--dark-5);
+	font-size: 12px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.news__content--informations {
+	font-size: 13px;
+	color: var(--black);
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.news__image {
+	border-radius: 12px;
+}
+
+.news__content--tags {
+	display: flex;
+	gap: 5px;
+	margin-bottom: 8px;
+}
+
+.news__content--tags--title {
+	font-size: 12px;
+	color: var(--dark-5);
+	font-weight: 500;
+}
+
+.news__content--tags--link {
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.happening__card--link {
+	padding: 13px 15px;
+}
+
+.happening__card--showmore {
+	text-decoration: none;
+	color: var(--primary-color);
+	font-size: 15px;
+	font-weight: 500;
 }
