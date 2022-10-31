@@ -8,5 +8,7 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions"
   ],
-  "framework": "@storybook/html"
+  "framework": "@storybook/html",
+
+  staticDirs: ['../public']
 }

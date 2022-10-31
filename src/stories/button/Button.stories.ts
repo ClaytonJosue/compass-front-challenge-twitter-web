@@ -3,7 +3,7 @@ import { createButton, ButtonProps } from './Button';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Components/Button',
   // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -28,22 +28,22 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Tweet',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  label: 'Tweet',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  label: 'Button',
+  label: 'Tweet',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  label: 'Button',
+  label: 'Tweet',
 };
