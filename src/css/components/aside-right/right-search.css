@@ -1,0 +1,30 @@
+@import url("../../style.css");
+
+.search {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.search-icon {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 15px;
+}
+
+.search-input {
+	padding: 0.4rem 3rem;
+	border-radius: 25px;
+	border: none;
+	background-color: var(--dark-7);
+	width: 200px;
+	height: 20px;
+}
+
+.search-input::placeholder {
+	font-family: var(--primary-font);
+	color: var(--dark-5);
+	font-weight: 500;
+	font-size: 14px;
+}

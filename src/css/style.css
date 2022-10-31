@@ -9,6 +9,10 @@
 @import url("components/middle/tweet-btn.css");
 @import url("components/middle/twitter-post.css");
 
+/* Imports Aside right */
+@import url("components/aside-right/right-news.css");
+@import url("components/aside-right/right-search.css");
+
 :root {
 	--primary-color: #1DA1F2;
 	--primary-color-opacity: #1DA1F250;

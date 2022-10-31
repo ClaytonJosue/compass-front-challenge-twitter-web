@@ -1,0 +1,9 @@
+@import url("../../style.css");
+
+.aside__right {
+	padding: 1rem;
+}
+
+.aside__right--fixed {
+	position: fixed;
+}
