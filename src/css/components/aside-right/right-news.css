@@ -8,7 +8,8 @@
 	position: fixed;
 }
 
-.happening__card {
+.happening__card,
+.follow__card {
 	background-color: var(--dark-8);
 	border-radius: 16px;
 	width: 25vw;
@@ -21,7 +22,7 @@
 
 .happening__header--title {
 	font-size: 20px;
-	color: var(--black);
+	color: var(--text-color);
 	font-weight: 700;
 }
 
@@ -44,7 +45,7 @@
 
 .news__content--informations {
 	font-size: 13px;
-	color: var(--black);
+	color: var(--text-color);
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -72,11 +73,13 @@
 	color: var(--primary-color);
 }
 
-.happening__card--link {
+.happening__card--link,
+.follow__card--link {
 	padding: 13px 15px;
 }
 
-.happening__card--showmore {
+.happening__card--showmore,
+.follow__card--showmore {
 	text-decoration: none;
 	color: var(--primary-color);
 	font-size: 15px;

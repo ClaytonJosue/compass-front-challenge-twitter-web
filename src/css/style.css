@@ -12,6 +12,7 @@
 /* Imports Aside right */
 @import url("components/aside-right/right-news.css");
 @import url("components/aside-right/right-search.css");
+@import url("components/aside-right/rigth-who-follow.css");
 
 :root {
 	--primary-color: #1DA1F2;
@@ -22,7 +23,6 @@
 	--dark-5: #5B7083;
 	--dark-7: #EBEEF0;
 	--dark-8: #F7F9FA;
-	--black: #000000;
 }
 
 body {
