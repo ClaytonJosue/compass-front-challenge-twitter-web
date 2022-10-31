@@ -15,6 +15,9 @@
 @import url("components/aside-right/rigth-who-follow.css");
 @import url("components/aside-right/right-footer.css");
 
+/* Imports footer */
+@import url("components/footer/footer.css");
+
 :root {
 	--primary-color: #1DA1F2;
 	--primary-color-opacity: #1DA1F250;

@@ -1,0 +1,46 @@
+@import url("../../style.css");
+
+.twitter__footer {
+	position: fixed;
+	bottom: 0;
+	background-color: var(--primary-color);
+	z-index: 1;
+	width: 100%;
+	display: flex;
+	height: 6vh;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 10rem;
+}
+
+.footer__informations--title {
+	font-size: 20px;
+	color: var(--white);
+	font-weight: 700;
+}
+
+.footer__informations--text {
+	font-size: 14px;
+	color: var(--dark-7);
+	font-weight: 500;
+}
+
+.footer__button--login,
+.footer__button--signup {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer__button--login {
+	border: 1px solid var(--white);
+	color: var(--white);
+}
+
+.footer__button--signup {
+	background-color: var(--white);
+	color: var(--text-color);
+}

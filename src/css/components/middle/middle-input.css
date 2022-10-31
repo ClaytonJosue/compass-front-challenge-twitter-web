@@ -5,6 +5,7 @@
 	height: 100%;
 	position: fixed;
 	right: 28.6%;
+	z-index: -1;
 }
 
 .middle__post--input {
