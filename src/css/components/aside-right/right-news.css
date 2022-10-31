@@ -7,3 +7,19 @@
 .aside__right--fixed {
 	position: fixed;
 }
+
+.happening__card {
+	background-color: var(--dark-8);
+	border-radius: 16px;
+}
+
+.happening__card--header {
+	padding: 15px;
+	border-bottom: 1px solid var(--dark-7);
+}
+
+.happening__header--title {
+	font-size: 20px;
+	color: var(--black);
+	font-weight: 700;
+}
