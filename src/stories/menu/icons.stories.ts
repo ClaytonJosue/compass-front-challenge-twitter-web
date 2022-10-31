@@ -5,6 +5,12 @@ export default {
 	title: 'Icons/MenuIcons'
 } as Meta
 
+export const TwitterLogo: Story = () => {
+	return `
+	<img src="../../../assets/icons/Twitter-logo.svg" alt="Logo of Twitter">
+	`
+}
+
 export const Home: Story = () => {
 	return `
 	<figure>
