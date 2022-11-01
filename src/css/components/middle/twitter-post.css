@@ -73,6 +73,10 @@
 	color: var(--dark-5);
 }
 
+.like__number {
+	color: var(--red-likes);
+}
+
 .post-thread {
 	text-decoration: none;
 	color: var(--primary-color);
