@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": " start-storybook -p 6006",
     "build-storybook": "export SET NODE_OPTIONS=--openssl-legacy-provider && build-storybook"
