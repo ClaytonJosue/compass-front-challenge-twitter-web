@@ -17,3 +17,40 @@
 <h3 align="center"> 
 	🚧 Status: Doing 🚧
  </h3>
+
+--- 
+<h2>About</h2>
+<p>This project is a clone of Twitter website. Created using Typescript, HTML and CSS</p>
+
+--- 
+<h2>Features</h2>
+
+- [X] Left side
+
+	- [X] Structure 
+	- [X] Stylization
+	- [X] Fixed scroll
+	- [X] Check user and password
+	- [X] Button tweet working
+	
+- [X] Middle
+
+	- [X] Structure
+	- [X] Stylization
+	- [X] Posts appearing
+	- [X] Maximum of 380 characters
+	- [X] Add tweet button working
+	- [X] Add image function working
+	- [X] Fixed header
+	
+- [X] Right side
+
+	- [X] Structure 
+	- [X] Stylization
+	- [X] Fixed scroll
+	
+- [X] Footer
+
+	- [X] Structure 
+	- [X] Stylization
+	- [X] Fixed scroll
