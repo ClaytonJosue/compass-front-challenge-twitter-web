@@ -44,22 +44,22 @@ function createPost(src: any, value: string) {
 
 				<div class="post__icons">
 					<div class="post__icons--content">
-						<img src="../../public/assets/icons/Comments-icon.svg" alt="Comments icon">
+						<img src="../../../public/assets/icons/Comments-icon.svg" alt="Comments icon">
 						<span class="post__icons--number">61</span>
 					</div>
 
 					<div class="post__icons--content">
-						<img src="../../public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
+						<img src="../../../public/assets/icons/Retweet-icon.svg" alt="Retweet icon">
 						<span class="post__icons--number">12</span>
 					</div>
 
 					<div class="post__icons--content">
-						<img src="../../public/assets/icons/Like-icon.svg" alt="Like icon">
+						<img src="../../../public/assets/icons/Like-icon.svg" alt="Like icon">
 						<span class="post__icons--number like__number">6.2K</span>
 					</div>
 
 					<div class="post__icons--content">
-						<img src="../../public/assets/icons/Share-icon.svg" alt="Share icon">
+						<img src="../../../public/assets/icons/Share-icon.svg" alt="Share icon">
 						<span class="post__icons--number">61</span>
 					</div>
 				</div>
