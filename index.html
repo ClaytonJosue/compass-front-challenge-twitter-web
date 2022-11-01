@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
   <title>Feed</title>
 </head>
 
@@ -110,7 +111,10 @@
             </div>
             <div class="middle__post--buttons">
               <div class="middle__post--emojis">
-                <img src="public/assets/icons/Emoji-image-icon.svg" class="emoji__icon">
+                <label for="image__upload">
+                  <img src="public/assets/icons/Emoji-image-icon.svg" class="emoji__icon">
+                </label>
+                <input type="file" name="image__upload" id="image__upload" accept="image/*" class="image__input">
                 <img src="public/assets/icons/Emoji-gif-icon.svg" class="emoji__icon">
                 <img src="public/assets/icons/Emoji-graph-icon.svg" class="emoji__icon">
                 <img src="public/assets/icons/Emoji-happy-icon.svg" class="emoji__icon">
@@ -279,7 +283,8 @@
           </header>
           <div class="follow__card--user">
             <figure>
-              <img src="public/assets/images/Bessie-image.svg" class="user__image" alt="Image of the Bessie's profile">
+              <img src="public/assets/images/Bessie-image.svg" class="follow__user--image"
+                alt="Image of the Bessie's profile">
             </figure>
             <div class="follow__user--informations">
               <h3 class="user__informations--name">Bessie Cooper</h3>
@@ -290,7 +295,8 @@
 
           <div class="follow__card--user">
             <figure>
-              <img src="public/assets/images/Jenny-image.svg" class="user__image" alt=" Image of the Jenny's profile">
+              <img src="public/assets/images/Jenny-image.svg" class="follow__user--image"
+                alt=" Image of the Jenny's profile">
             </figure>
             <div class="follow__user--informations">
               <h3 class="user__informations--name">Jenny Wilson</h3>

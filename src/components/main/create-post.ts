@@ -1,10 +1,27 @@
-import { tweetInput } from "./activated-button";
+import { tweetInput } from "./activated-button.js";
 
+const image: HTMLInputElement = document.querySelector(".image__input") as HTMLInputElement;
 const postContent: HTMLElement = document.querySelector(".posts__content") as HTMLElement;
 export const tweetBtn: HTMLButtonElement = document.querySelector("#tweetBtn") as HTMLButtonElement;
 
-function createPost() {
-	let card = document.createElement("section");
+function createImage(file: any) {
+	const value = tweetInput.value;
+
+	if (file[0]) {
+		const fileReader = new FileReader();
+		let src: string | any = "";
+
+		fileReader.onload = function (event) {
+			src = event.target?.result;
+			createPost(src, value);
+		}
+
+		fileReader.readAsDataURL(file[0]);
+	}
+}
+
+function createPost(src: any, value: string) {
+	let card: HTMLElement = document.createElement("section");
 	card.classList.add("tweet-post");
 	card.innerHTML = `
 		<figure>
@@ -14,14 +31,14 @@ function createPost() {
 			<div class="post">
 				<div class="post__user">
 					<h2 class="post__user--name">Clayton Josué</h2>
-					<h3 class="post__user--nickname">@clayton_josue</h3>
+					<h3 class="post__user--nickname">@Clayton_Josue1</h3>
 					<p class="post__user--dot">·</p>
-					<h4 class="post__user--time">23s</h4>
+					<h4 class="post__user--time">0s</h4>
 				</div>
-				<p class="post__content">${tweetInput.value}</p>
+				<p class="post__content">${value}</p>
 
 				<div class="post__file">
-					<img src="public/assets/images/Astronaut-Image.png" class="user__image" alt="Image of an Astronaut">
+					<img src="${src}" class="user__image" alt="Image of an Astronaut">
 				</div>
 
 				<div class="post__icons">
@@ -55,7 +72,10 @@ function createPost() {
 
 function clear() {
 	tweetInput.value = '';
+	image.value = '';
 	tweetInput.focus();
 }
 
-tweetBtn.addEventListener("click", createPost);
+tweetBtn.addEventListener("click", () => {
+	createImage(image.files);
+});

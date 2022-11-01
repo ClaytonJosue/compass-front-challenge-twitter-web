@@ -50,6 +50,8 @@
 .user__image {
 	border-radius: 25px;
 	margin-right: 15px;
+	width: 510px;
+	height: 247px;
 }
 
 .post__icons {
