@@ -33,7 +33,7 @@ export const createButton = ({
   label,
   onClick,
 }: ButtonProps) => {
-  const btn = document.createElement('button');
+  const btn: any = document.createElement('button');
   btn.type = 'button';
   btn.innerText = label;
   btn.addEventListener('click', onClick);
