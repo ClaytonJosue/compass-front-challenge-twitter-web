@@ -15,7 +15,7 @@
 </p>
 
 <h3 align="center"> 
-	🚧 Status: Doing 🚧
+	✔️ Status: Done ✔️
  </h3>
 
 --- 
