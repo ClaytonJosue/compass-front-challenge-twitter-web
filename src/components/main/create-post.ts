@@ -14,6 +14,7 @@ function createImage(file: any) {
 		fileReader.onload = function (event) {
 			src = event.target?.result;
 			createPost(src, value);
+			tweetBtn.disabled = true;
 		}
 
 		fileReader.readAsDataURL(file[0]);
