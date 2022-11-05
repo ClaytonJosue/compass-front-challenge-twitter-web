@@ -56,7 +56,7 @@ function createPost(src: any, value: string) {
 
 					<div class="post__icons--content">
 						<img src="../../../assets/icons/Retweet-icon.svg" alt="Retweet icon">
-						<span class="post__icons--number">12</span>
+						<span class="post__icons--number">0</span>
 					</div>
 
 					<div class="post__icons--content">
@@ -66,7 +66,7 @@ function createPost(src: any, value: string) {
 
 					<div class="post__icons--content">
 						<img src="../../../assets/icons/Share-icon.svg" alt="Share icon">
-						<span class="post__icons--number">61</span>
+						<span class="post__icons--number">0</span>
 					</div>
 				</div>
             	<a class="post-thread" href="404.html">Show this thread</a>
